@@ -1,0 +1,39 @@
+.chatbox-container {
+  width: 100vw;
+  height: 80vh;
+  .chatbox-wrapper {
+    background-image: url("/img/conversationWithoutText.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .reply-box {
+    border: 1px solid;
+    padding: 10px;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .bot-reply:first-child {
+    padding-top: 70px;
+  }
+  .bot-reply {
+    text-align: left;
+    span {
+      color: #03F;
+      background-color: #fff;
+    }
+  }
+  .user-input {
+    text-align: right;
+    span {
+      color: #fff;
+      background-color: #03F;
+    }
+  }
+}
+.chat-input-container {
+  position: absolute;
+  bottom: 0;
+}
